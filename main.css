@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color: lightgrey;
+}
+
+header {
+  height: 100px; 
+  background: white
+  border: 1px solid grey; 
+}
+
+.main {
+  height: 600px; 
+  background: lightgrey; 
+}
+
+.etsy {
+  font-family: arial;
+  font-size: 30px;
+  color: brown;
+}
+.product {
+  width: 180px;
+  height: 170px;
+  background: white;
+  border: 1px solid black;
+  float: left; 
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 23px;
+}
+
+.search-bar {
+  height: 10px;
+}
+
+input[type=text] {
+padding: 9px;
+font-size: 14px;
+line-height: 12px;
+width: 180px;
+border: 0;
+background-color: white;
+border: 1px solid black;
+}
+
+input[type=submit]{
+padding: 9px;
+font-size: 14px;
+line-height: 12px;
+border: 0;
+background-color: blue;
+color: white;
+}
+
+input[type=submit]{
+padding: 9px;
+font-size: 14px;
+line-height: 12px;
+border: 0;
+background-color: blue;
+color: white;
+}
+
+footer {
+  height: 200px; 
+ background: lightgrey; 
+  border: 10px solid grey;
+  margin-top: 100px;
+} 
+
+.content {
+  width: 980px;
+  margin: auto;
+}
+
+.main .content {
+  overflow: hidden;
+}
+
+.left-header-area {
+  width: 400px;  
+  height: 75px;  
+  margin: 20px;  
+  margin-left: 0px;  
+  background: white; 
+  float: left;
+}
+
+.right-header-area {
+  width: 200px;  
+  height: 75px;  
+  margin: 20px;  
+  margin-right: 50px;
+  background: white;  
+  border: 1px solid blue;
+  float: right;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.sidebar {
+  height: 1200px; 
+  background: white; 
+  border: 1px solid grey;
+  width: 224px;
+  padding-left: 10px;
+  float: left;
+}
+
+.product-area {
+  height: 500px; 
+  background: lightgrey; 
+  width: 728px;
+  float: right;
+}
+
+.radio.rad-blue {
+  color: #f3f3f3;
+  border-radius: 8px; 
+}
+.category {
+  padding-left: 10px;
+  color: blue;
+}
+
+ul.list {
+  list-style-type: none;
+}
+
+.square{
+  width: 5px;
+  height: 5px;
+}
+
+
+.square.red{
+    border: 10px solid red;
+}
+
+.square.orange{
+    border: 10px solid orange;
+}
+.square.yellow{
+    border: 10px solid yellow;
+}
+.square.green{
+    border: 10px solid green;
+}
+.square.blue{
+    border: 10px solid blue;
+}
+.square.purple{
+    border: 10px solid purple;
+}
+.square.black{
+    border: 10px solid black;
+}
+.square.white{
+    border: 10px solid white;
+}
+
+.pagination {
+  margin-left: 1000px;
+}
+
